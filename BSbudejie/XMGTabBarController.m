@@ -50,11 +50,15 @@
 
 -(void)setupChildVc:(UIViewController*)vc01 title:(NSString*)title image:(NSString*)image selectedImage:(NSString*)selectedImage{
     // 添加子控制器
-    vc01.tabBarItem.title = title;
+   vc01.tabBarItem.title = title;
     vc01.tabBarItem.image = [UIImage imageNamed:image];
     vc01.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
     vc01.view.backgroundColor = [UIColor redColor];
-    [self addChildViewController:vc01];
+    vc01.navigationItem.title=title;
+    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:vc01];
+    
+    
+    [self addChildViewController:nav];
 
 }
 

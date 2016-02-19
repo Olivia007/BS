@@ -9,7 +9,11 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 #import "UIView+XMGExtension.h"
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef DEBUG
+#define XMGLog(...) NSLog(__VA_ARGS__)
+#else
+#define XMGLog(...)
+#endif
 
+#define XMGLogFunc XMGLog(@"%s", __func__)
 #endif /* PrefixHeader_pch */
