@@ -13,6 +13,10 @@
 		FDE613921C76EA680094E1BF /* BSbudejieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613911C76EA680094E1BF /* BSbudejieTests.m */; };
 		FDE6139D1C76EA680094E1BF /* BSbudejieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE6139C1C76EA680094E1BF /* BSbudejieUITests.m */; };
 		FDE613AC1C76EBAD0094E1BF /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613AB1C76EBAD0094E1BF /* XMGTabBarController.m */; };
+		FDE613AF1C76FB220094E1BF /* XMGEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613AE1C76FB220094E1BF /* XMGEssenceViewController.m */; };
+		FDE613B21C76FB2F0094E1BF /* XMGNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613B11C76FB2F0094E1BF /* XMGNewViewController.m */; };
+		FDE613B51C76FB3F0094E1BF /* XMGFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613B41C76FB3F0094E1BF /* XMGFriendTrendsViewController.m */; };
+		FDE613B81C76FB580094E1BF /* XMGMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613B71C76FB580094E1BF /* XMGMeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,14 @@
 		FDE6139E1C76EA680094E1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDE613AA1C76EBAD0094E1BF /* XMGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTabBarController.h; sourceTree = "<group>"; };
 		FDE613AB1C76EBAD0094E1BF /* XMGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBarController.m; sourceTree = "<group>"; };
+		FDE613AD1C76FB220094E1BF /* XMGEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGEssenceViewController.h; sourceTree = "<group>"; };
+		FDE613AE1C76FB220094E1BF /* XMGEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGEssenceViewController.m; sourceTree = "<group>"; };
+		FDE613B01C76FB2F0094E1BF /* XMGNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGNewViewController.h; sourceTree = "<group>"; };
+		FDE613B11C76FB2F0094E1BF /* XMGNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNewViewController.m; sourceTree = "<group>"; };
+		FDE613B31C76FB3F0094E1BF /* XMGFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGFriendTrendsViewController.h; sourceTree = "<group>"; };
+		FDE613B41C76FB3F0094E1BF /* XMGFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGFriendTrendsViewController.m; sourceTree = "<group>"; };
+		FDE613B61C76FB580094E1BF /* XMGMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMeViewController.h; sourceTree = "<group>"; };
+		FDE613B71C76FB580094E1BF /* XMGMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,14 @@
 				FDE6137B1C76EA680094E1BF /* AppDelegate.m */,
 				FDE613AA1C76EBAD0094E1BF /* XMGTabBarController.h */,
 				FDE613AB1C76EBAD0094E1BF /* XMGTabBarController.m */,
+				FDE613AD1C76FB220094E1BF /* XMGEssenceViewController.h */,
+				FDE613AE1C76FB220094E1BF /* XMGEssenceViewController.m */,
+				FDE613B01C76FB2F0094E1BF /* XMGNewViewController.h */,
+				FDE613B11C76FB2F0094E1BF /* XMGNewViewController.m */,
+				FDE613B31C76FB3F0094E1BF /* XMGFriendTrendsViewController.h */,
+				FDE613B41C76FB3F0094E1BF /* XMGFriendTrendsViewController.m */,
+				FDE613B61C76FB580094E1BF /* XMGMeViewController.h */,
+				FDE613B71C76FB580094E1BF /* XMGMeViewController.m */,
 				FDE613831C76EA680094E1BF /* Assets.xcassets */,
 				FDE613881C76EA680094E1BF /* Info.plist */,
 				FDE613771C76EA680094E1BF /* Supporting Files */,
@@ -263,7 +283,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDE613AC1C76EBAD0094E1BF /* XMGTabBarController.m in Sources */,
+				FDE613B21C76FB2F0094E1BF /* XMGNewViewController.m in Sources */,
 				FDE6137C1C76EA680094E1BF /* AppDelegate.m in Sources */,
+				FDE613B51C76FB3F0094E1BF /* XMGFriendTrendsViewController.m in Sources */,
+				FDE613AF1C76FB220094E1BF /* XMGEssenceViewController.m in Sources */,
+				FDE613B81C76FB580094E1BF /* XMGMeViewController.m in Sources */,
 				FDE613791C76EA680094E1BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
