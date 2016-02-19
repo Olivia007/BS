@@ -19,6 +19,8 @@
     self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MainTitle"]];
     // 设置导航栏左边的按钮
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" highImage:@"MainTagSubIconClick" target:self action:@selector(tagClick)];
+    // 设置背景色
+    self.view.backgroundColor = XMGGlobalBg;
     // Do any additional setup after loading the view.
 }
 - (void)tagClick
