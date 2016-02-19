@@ -17,6 +17,7 @@
 		FDE613B21C76FB2F0094E1BF /* XMGNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613B11C76FB2F0094E1BF /* XMGNewViewController.m */; };
 		FDE613B51C76FB3F0094E1BF /* XMGFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613B41C76FB3F0094E1BF /* XMGFriendTrendsViewController.m */; };
 		FDE613B81C76FB580094E1BF /* XMGMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613B71C76FB580094E1BF /* XMGMeViewController.m */; };
+		FDE613BB1C77039B0094E1BF /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613BA1C77039B0094E1BF /* XMGTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		FDE613B41C76FB3F0094E1BF /* XMGFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGFriendTrendsViewController.m; sourceTree = "<group>"; };
 		FDE613B61C76FB580094E1BF /* XMGMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMeViewController.h; sourceTree = "<group>"; };
 		FDE613B71C76FB580094E1BF /* XMGMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMeViewController.m; sourceTree = "<group>"; };
+		FDE613B91C77039B0094E1BF /* XMGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTabBar.h; sourceTree = "<group>"; };
+		FDE613BA1C77039B0094E1BF /* XMGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 		FDE613761C76EA680094E1BF /* BSbudejie */ = {
 			isa = PBXGroup;
 			children = (
+				FDE613B91C77039B0094E1BF /* XMGTabBar.h */,
+				FDE613BA1C77039B0094E1BF /* XMGTabBar.m */,
 				FDE6137A1C76EA680094E1BF /* AppDelegate.h */,
 				FDE6137B1C76EA680094E1BF /* AppDelegate.m */,
 				FDE613AA1C76EBAD0094E1BF /* XMGTabBarController.h */,
@@ -288,6 +293,7 @@
 				FDE613B51C76FB3F0094E1BF /* XMGFriendTrendsViewController.m in Sources */,
 				FDE613AF1C76FB220094E1BF /* XMGEssenceViewController.m in Sources */,
 				FDE613B81C76FB580094E1BF /* XMGMeViewController.m in Sources */,
+				FDE613BB1C77039B0094E1BF /* XMGTabBar.m in Sources */,
 				FDE613791C76EA680094E1BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
