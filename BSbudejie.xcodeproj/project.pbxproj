@@ -18,6 +18,7 @@
 		FDE613B51C76FB3F0094E1BF /* XMGFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613B41C76FB3F0094E1BF /* XMGFriendTrendsViewController.m */; };
 		FDE613B81C76FB580094E1BF /* XMGMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613B71C76FB580094E1BF /* XMGMeViewController.m */; };
 		FDE613BB1C77039B0094E1BF /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613BA1C77039B0094E1BF /* XMGTabBar.m */; };
+		FDE613C21C7712270094E1BF /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613C11C7712270094E1BF /* UIView+XMGExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,9 @@
 		FDE613B71C76FB580094E1BF /* XMGMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMeViewController.m; sourceTree = "<group>"; };
 		FDE613B91C77039B0094E1BF /* XMGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTabBar.h; sourceTree = "<group>"; };
 		FDE613BA1C77039B0094E1BF /* XMGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBar.m; sourceTree = "<group>"; };
+		FDE613BC1C77105B0094E1BF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FDE613C01C7712270094E1BF /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		FDE613C11C7712270094E1BF /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,9 @@
 				FDE613831C76EA680094E1BF /* Assets.xcassets */,
 				FDE613881C76EA680094E1BF /* Info.plist */,
 				FDE613771C76EA680094E1BF /* Supporting Files */,
+				FDE613BC1C77105B0094E1BF /* PrefixHeader.pch */,
+				FDE613C01C7712270094E1BF /* UIView+XMGExtension.h */,
+				FDE613C11C7712270094E1BF /* UIView+XMGExtension.m */,
 			);
 			path = BSbudejie;
 			sourceTree = "<group>";
@@ -294,6 +301,7 @@
 				FDE613AF1C76FB220094E1BF /* XMGEssenceViewController.m in Sources */,
 				FDE613B81C76FB580094E1BF /* XMGMeViewController.m in Sources */,
 				FDE613BB1C77039B0094E1BF /* XMGTabBar.m in Sources */,
+				FDE613C21C7712270094E1BF /* UIView+XMGExtension.m in Sources */,
 				FDE613791C76EA680094E1BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = BSbudejie/PrefixHeader.pch;
 				INFOPLIST_FILE = BSbudejie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -428,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = BSbudejie/PrefixHeader.pch;
 				INFOPLIST_FILE = BSbudejie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
