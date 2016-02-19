@@ -9,6 +9,7 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 #import "UIView+XMGExtension.h"
+#import "UIBarButtonItem+XMGExtension.h"
 #ifdef DEBUG
 #define XMGLog(...) NSLog(__VA_ARGS__)
 #else

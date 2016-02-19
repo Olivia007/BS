@@ -24,12 +24,8 @@
     //    self.tabBarItem.title = @"我的关注";
     
     // 设置导航栏左边的按钮
-    UIButton *friendsButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [friendsButton setBackgroundImage:[UIImage imageNamed:@"friendsRecommentIcon"] forState:UIControlStateNormal];
-    [friendsButton setBackgroundImage:[UIImage imageNamed:@"friendsRecommentIcon-click"] forState:UIControlStateHighlighted];
-    friendsButton.size = friendsButton.currentBackgroundImage.size;
-    [friendsButton addTarget:self action:@selector(friendsClick) forControlEvents:UIControlEventTouchUpInside];
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:friendsButton];
+    // 设置导航栏左边的按钮
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" highImage:@"friendsRecommentIcon-click" target:self action:@selector(friendsClick)];
  
     // Do any additional setup after loading the view.
 }

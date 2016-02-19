@@ -19,6 +19,7 @@
 		FDE613B81C76FB580094E1BF /* XMGMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613B71C76FB580094E1BF /* XMGMeViewController.m */; };
 		FDE613BB1C77039B0094E1BF /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613BA1C77039B0094E1BF /* XMGTabBar.m */; };
 		FDE613C21C7712270094E1BF /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613C11C7712270094E1BF /* UIView+XMGExtension.m */; };
+		FDE613C51C771D0D0094E1BF /* UIBarButtonItem+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE613C41C771D0D0094E1BF /* UIBarButtonItem+XMGExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		FDE613BC1C77105B0094E1BF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FDE613C01C7712270094E1BF /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
 		FDE613C11C7712270094E1BF /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
+		FDE613C31C771D0D0094E1BF /* UIBarButtonItem+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XMGExtension.h"; sourceTree = "<group>"; };
+		FDE613C41C771D0D0094E1BF /* UIBarButtonItem+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XMGExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 				FDE613BC1C77105B0094E1BF /* PrefixHeader.pch */,
 				FDE613C01C7712270094E1BF /* UIView+XMGExtension.h */,
 				FDE613C11C7712270094E1BF /* UIView+XMGExtension.m */,
+				FDE613C31C771D0D0094E1BF /* UIBarButtonItem+XMGExtension.h */,
+				FDE613C41C771D0D0094E1BF /* UIBarButtonItem+XMGExtension.m */,
 			);
 			path = BSbudejie;
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 				FDE613AF1C76FB220094E1BF /* XMGEssenceViewController.m in Sources */,
 				FDE613B81C76FB580094E1BF /* XMGMeViewController.m in Sources */,
 				FDE613BB1C77039B0094E1BF /* XMGTabBar.m in Sources */,
+				FDE613C51C771D0D0094E1BF /* UIBarButtonItem+XMGExtension.m in Sources */,
 				FDE613C21C7712270094E1BF /* UIView+XMGExtension.m in Sources */,
 				FDE613791C76EA680094E1BF /* main.m in Sources */,
 			);
